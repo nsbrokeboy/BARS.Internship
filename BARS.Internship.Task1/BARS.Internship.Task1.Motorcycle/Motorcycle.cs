@@ -7,7 +7,6 @@
         public string driverIntensity;
         
         // т.к. была найдена ошибка, убрал конструктор с name, это поле проинициализирую через метод SetDriverName и добавлю пустой конструктор
-
         public Motorcycle()
         {
         }
@@ -24,7 +23,6 @@
         }
 
         // получился метод-сеттер для поля name
-
         public void SetDriverName(string name)
         {
             this.name = name;
