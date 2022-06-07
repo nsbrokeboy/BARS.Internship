@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BARS.Internship.Task3.MathLib", "BARS.Internship.Task3.MathLib\BARS.Internship.Task3.MathLib.csproj", "{6EB3187A-7526-4BFA-83C4-965626091F20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BARS.Internship.Task3.ComplexNumber", "BARS.Internship.Task3.ComplexNumber\BARS.Internship.Task3.ComplexNumber.csproj", "{CAF0652C-75FD-4A35-A9D5-EA33528DE805}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EB3187A-7526-4BFA-83C4-965626091F20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EB3187A-7526-4BFA-83C4-965626091F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EB3187A-7526-4BFA-83C4-965626091F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EB3187A-7526-4BFA-83C4-965626091F20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAF0652C-75FD-4A35-A9D5-EA33528DE805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF0652C-75FD-4A35-A9D5-EA33528DE805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF0652C-75FD-4A35-A9D5-EA33528DE805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF0652C-75FD-4A35-A9D5-EA33528DE805}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
