@@ -4,6 +4,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BARS.Internship.Task3.MathL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BARS.Internship.Task3.ComplexNumber", "BARS.Internship.Task3.ComplexNumber\BARS.Internship.Task3.ComplexNumber.csproj", "{CAF0652C-75FD-4A35-A9D5-EA33528DE805}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BARS.Internship.Task3.User", "BARS.Internship.Task3.User\BARS.Internship.Task3.User.csproj", "{E5CEC9F7-0362-42CA-87C6-C93DF29FA516}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BARS.Internship.Task3.Person", "BARS.Internship.Task3.Person\BARS.Internship.Task3.Person.csproj", "{5358C8C3-FF94-4151-945A-0A24D484768C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BARS.Internship.Task3.PersonConstructor", "BARS.Internship.Task3.PersonConstructor\BARS.Internship.Task3.PersonConstructor.csproj", "{165AE09B-F5E4-47EE-9601-E34DD5ED4E77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +24,17 @@ Global
 		{CAF0652C-75FD-4A35-A9D5-EA33528DE805}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAF0652C-75FD-4A35-A9D5-EA33528DE805}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAF0652C-75FD-4A35-A9D5-EA33528DE805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5CEC9F7-0362-42CA-87C6-C93DF29FA516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5CEC9F7-0362-42CA-87C6-C93DF29FA516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5CEC9F7-0362-42CA-87C6-C93DF29FA516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5CEC9F7-0362-42CA-87C6-C93DF29FA516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5358C8C3-FF94-4151-945A-0A24D484768C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5358C8C3-FF94-4151-945A-0A24D484768C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5358C8C3-FF94-4151-945A-0A24D484768C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5358C8C3-FF94-4151-945A-0A24D484768C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{165AE09B-F5E4-47EE-9601-E34DD5ED4E77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{165AE09B-F5E4-47EE-9601-E34DD5ED4E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{165AE09B-F5E4-47EE-9601-E34DD5ED4E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{165AE09B-F5E4-47EE-9601-E34DD5ED4E77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
