@@ -56,7 +56,7 @@ namespace BARS.Internship.Task4.MyArray
 
             if (index <= Length - 1)
             {
-                for (int i = 0; i < Length - 1; i++)
+                for (int i = 0; i < Length; i++)
                 {
                     if (i != index)
                     {
