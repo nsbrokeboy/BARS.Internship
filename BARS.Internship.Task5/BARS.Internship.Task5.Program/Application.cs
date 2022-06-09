@@ -35,11 +35,13 @@ namespace BARS.Internship.Task5.Program
                 {
                     case "1":
                         CompaniesMenu();
+                        Console.WriteLine();
                         break;
                     case "0":
                         return;
                     default:
-                        Console.WriteLine("Неверная комманда");
+                        Console.WriteLine("Неверная команда");
+                        Console.WriteLine();
                         break;
                 }
             }
@@ -47,7 +49,28 @@ namespace BARS.Internship.Task5.Program
 
         public void CompaniesMenu()
         {
-            // todo: вывод компаний и меню редактирования
+            // todo: вывод компаний и меню редактирования, обернуть в while
+            Console.WriteLine("Список компаний:");
+            int index = 1;
+            foreach (var company in _companies)
+            {
+                Console.WriteLine($"{index}. {company.Name}");
+                index++;
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("Выберите действие:\n1. Подробнее о компании...\n2. Назад");
+            switch (Console.ReadLine())
+            {
+                case "1":
+                    //
+                    break;
+                case "2":
+                    break;
+                default:
+                    Console.WriteLine("Неверная команда");
+                    break;
+            }
         }
         
         // метод выводит всех сотрудников компании

@@ -6,7 +6,8 @@ namespace BARS.Internship.Task5.Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var application = new Application();
+            application.MainMenu();
         }
     }
 }
