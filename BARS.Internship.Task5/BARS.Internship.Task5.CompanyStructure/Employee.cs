@@ -4,11 +4,11 @@ namespace BARS.Internship.Task5.CompanyStructure
 {
     public class Employee
     {
-        private string FullName { get; set; }
+        public string FullName { get; private set; }
 
-        private DateTime DateOfBirthday { get; set; }
+        public DateTime DateOfBirthday { get; private set; }
 
-        private int Salary { get; set; }
+        public int Salary { get; private set; }
 
         public Employee(string fullName, DateTime dateOfBirthday, int salary)
         {
@@ -22,9 +22,10 @@ namespace BARS.Internship.Task5.CompanyStructure
             FullName = name;
         }
 
-        public void EditDateOfBirthday(DateTime date)
+        public void EditDateOfBirthday(int day, int month, int year)
         {
-            DateOfBirthday = date;
+            var newDate = new DateTime(year, month, day);
+            DateOfBirthday = newDate;
         }
 
         public void EditSalary(int salary)
