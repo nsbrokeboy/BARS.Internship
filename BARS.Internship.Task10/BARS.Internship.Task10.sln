@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BARS.Internship.Task10.Extension", "BARS.Internship.Task10.Extension\BARS.Internship.Task10.Extension.csproj", "{1CF2A050-9B74-4C15-B783-2A9A4F40D5F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BARS.Internship.Task10.Nullable", "BARS.Internship.Task10.Nullable\BARS.Internship.Task10.Nullable.csproj", "{6C4DED9B-9A0E-4D5A-B012-80777BD66DD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CF2A050-9B74-4C15-B783-2A9A4F40D5F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CF2A050-9B74-4C15-B783-2A9A4F40D5F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CF2A050-9B74-4C15-B783-2A9A4F40D5F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CF2A050-9B74-4C15-B783-2A9A4F40D5F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C4DED9B-9A0E-4D5A-B012-80777BD66DD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C4DED9B-9A0E-4D5A-B012-80777BD66DD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C4DED9B-9A0E-4D5A-B012-80777BD66DD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C4DED9B-9A0E-4D5A-B012-80777BD66DD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
