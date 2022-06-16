@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace BARS.Internship.Task11.Examplw
+namespace BARS.Internship.Task11.Example
 {
     class Program
     {

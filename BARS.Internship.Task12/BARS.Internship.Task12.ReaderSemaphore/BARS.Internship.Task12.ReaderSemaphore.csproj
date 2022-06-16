@@ -3,7 +3,7 @@
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <TargetFramework>net5.0</TargetFramework>
-        <RootNamespace>BARS.Internship.Task11.Example</RootNamespace>
+        <RootNamespace>BARS.Internship.Task12.ReaderSemaphore</RootNamespace>
     </PropertyGroup>
 
 </Project>

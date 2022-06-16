@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BARS.Internship.Task12.LockAndMonitor", "BARS.Internship.Task12.LockAndMonitor\BARS.Internship.Task12.LockAndMonitor.csproj", "{E7135781-A93F-40F5-B108-D277BF3412C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BARS.Internship.Task12.CountAutoResetEvent", "BARS.Internship.Task12.CountAutoResetEvent\BARS.Internship.Task12.CountAutoResetEvent.csproj", "{6B1DAE68-9BB2-4CDB-A6C1-3CBCCCA057F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BARS.Internship.Task12.MutexCount", "BARS.Internship.Task12.MutexCount\BARS.Internship.Task12.MutexCount.csproj", "{A397E847-DA24-45C7-8FA3-D0E7C70A8469}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BARS.Internship.Task12.ReaderSemaphore", "BARS.Internship.Task12.ReaderSemaphore\BARS.Internship.Task12.ReaderSemaphore.csproj", "{A12FE8AD-E159-4B50-BC90-AE5B87FCC055}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BARS.Internship.Task12.Timer", "BARS.Internship.Task12.Timer\BARS.Internship.Task12.Timer.csproj", "{A2C2CB6A-DA8F-41CC-84D4-F1094E78866F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BARS.Internship.Task12.WriterReader", "BARS.Internship.Task12.WriterReader\BARS.Internship.Task12.WriterReader.csproj", "{4F0FCDFE-C613-475C-B087-A0DF93E61B48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7135781-A93F-40F5-B108-D277BF3412C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7135781-A93F-40F5-B108-D277BF3412C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7135781-A93F-40F5-B108-D277BF3412C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7135781-A93F-40F5-B108-D277BF3412C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B1DAE68-9BB2-4CDB-A6C1-3CBCCCA057F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B1DAE68-9BB2-4CDB-A6C1-3CBCCCA057F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B1DAE68-9BB2-4CDB-A6C1-3CBCCCA057F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B1DAE68-9BB2-4CDB-A6C1-3CBCCCA057F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A397E847-DA24-45C7-8FA3-D0E7C70A8469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A397E847-DA24-45C7-8FA3-D0E7C70A8469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A397E847-DA24-45C7-8FA3-D0E7C70A8469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A397E847-DA24-45C7-8FA3-D0E7C70A8469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A12FE8AD-E159-4B50-BC90-AE5B87FCC055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A12FE8AD-E159-4B50-BC90-AE5B87FCC055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A12FE8AD-E159-4B50-BC90-AE5B87FCC055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A12FE8AD-E159-4B50-BC90-AE5B87FCC055}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2C2CB6A-DA8F-41CC-84D4-F1094E78866F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2C2CB6A-DA8F-41CC-84D4-F1094E78866F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2C2CB6A-DA8F-41CC-84D4-F1094E78866F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2C2CB6A-DA8F-41CC-84D4-F1094E78866F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F0FCDFE-C613-475C-B087-A0DF93E61B48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F0FCDFE-C613-475C-B087-A0DF93E61B48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F0FCDFE-C613-475C-B087-A0DF93E61B48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F0FCDFE-C613-475C-B087-A0DF93E61B48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

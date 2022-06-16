@@ -56,6 +56,7 @@ namespace BARS.Internship.Task11.Gardener
                         {
                             garden[i, j] = 2;
                         }
+                        
                         Thread.Sleep(1);
                     }
                 }

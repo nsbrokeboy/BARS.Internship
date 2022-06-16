@@ -9,6 +9,7 @@ namespace BARS.Internship.Task10.Exstension
         {
             string str = "азбука";
             Console.WriteLine(str.CharCount('а'));
+            
         }
     }
 
