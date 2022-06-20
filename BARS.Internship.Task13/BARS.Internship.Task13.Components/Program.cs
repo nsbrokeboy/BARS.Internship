@@ -1,0 +1,12 @@
+﻿using System;
+
+namespace BARS.Internship.Task13.Components
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // ??????????????????????
+        }
+    }
+}

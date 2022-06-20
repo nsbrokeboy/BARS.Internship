@@ -1,32 +1,57 @@
 ﻿using System;
+using System.Runtime.Serialization;
 using System.Threading;
 
 namespace BARS.Internship.Task12.WriterReader
 {
     class Program
     {
-        static ReaderWriterLockSlim rwLock = new ReaderWriterLockSlim();
-        
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var transaction = new Transaction();
+            var parameters = new Parameters(transaction, 30);
+
+
+            var threadStartWrite = new ParameterizedThreadStart(TransactionWriteTest);
+            var threadWrite = new Thread(threadStartWrite);
+
+            var threadStartRead = new ParameterizedThreadStart(TransactionReadTest);
+            var threadRead = new Thread(threadStartRead);
+
+            threadRead.Start(parameters);
+            threadWrite.Start(parameters);
         }
 
-        static void Read(int i)
+        private static void TransactionWriteTest(object obj)
         {
-            // ? 
-            rwLock.EnterWriteLock();
-            Console.WriteLine($"{i} Читаю");
-            rwLock.ExitWriteLock();
+            var parameters = obj as Parameters;
+            for (int i = 0; i < parameters.count; i++)
+            {
+                parameters._transaction.PerformTransaction();
+                // Thread.Sleep(1);
+            }
         }
 
-        static void Write(int i)
+        private static void TransactionReadTest(object obj)
         {
-            rwLock.EnterReadLock();
-            rwLock.EnterWriteLock();
-            Console.WriteLine($"{i} пишу");
-            rwLock.ExitWriteLock();
-            rwLock.ExitReadLock();
+            var parameters = obj as Parameters;
+            for (int i = 0; i < parameters.count; i++)
+            {
+                parameters._transaction.LastTransaction();
+                // Thread.Sleep(1);
+            }
+        }
+    }
+
+    class Parameters
+    {
+        public Transaction _transaction;
+        public int count;
+
+        public Parameters(Transaction transaction, int count)
+        {
+            _transaction = transaction;
+            this.count = count;
         }
     }
 }

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BARS.Internship.Task13.Sum2Threads", "BARS.Internship.Task13.Sum2Threads\BARS.Internship.Task13.Sum2Threads.csproj", "{134CEE3D-304D-4DE3-B0A7-D420F533F5BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BARS.Internship.Task13.SumKThreads", "BARS.Internship.Task13.SumKThreads\BARS.Internship.Task13.SumKThreads.csproj", "{ABE7E390-8935-4EC6-9502-9538114B1B8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BARS.Internship.Task13.Components", "BARS.Internship.Task13.Components\BARS.Internship.Task13.Components.csproj", "{E9C7F0DA-791F-402D-8EFE-E3FD20AA7781}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{134CEE3D-304D-4DE3-B0A7-D420F533F5BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{134CEE3D-304D-4DE3-B0A7-D420F533F5BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{134CEE3D-304D-4DE3-B0A7-D420F533F5BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{134CEE3D-304D-4DE3-B0A7-D420F533F5BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABE7E390-8935-4EC6-9502-9538114B1B8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABE7E390-8935-4EC6-9502-9538114B1B8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABE7E390-8935-4EC6-9502-9538114B1B8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABE7E390-8935-4EC6-9502-9538114B1B8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9C7F0DA-791F-402D-8EFE-E3FD20AA7781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9C7F0DA-791F-402D-8EFE-E3FD20AA7781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9C7F0DA-791F-402D-8EFE-E3FD20AA7781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9C7F0DA-791F-402D-8EFE-E3FD20AA7781}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
