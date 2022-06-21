@@ -6,7 +6,7 @@ namespace BARS.Internship.Task13.SumKThreads
 {
     class Program
     {
-        // int sum = mas.AsParallel().Sum(); ¯\_(ツ)_/¯
+        // int sum = array.AsParallel().Sum(); ¯\_(ツ)_/¯
 
         private static int sum = 0;
 
@@ -31,19 +31,23 @@ namespace BARS.Internship.Task13.SumKThreads
             {
                 var thread = new Thread(CountSum);
                 thread.Start(information);
-                information.counter++;
+                Thread.Sleep(10);
             }
-
+            
             for (int i = 0; i < information.countOfThreads; i++)
             {
                 sum += information.partialSums[i];
             }
+
+            Console.WriteLine($"Сумма элементов массива: {sum}");
         }
 
         static void CountSum(object obj)
         {
             var information = obj as Information;
             int localSum = 0;
+            
+            // i выходит за границы массива
             
             for (int i = information.counter * information.countOfThreads;
                  i < (information.counter + 1) * information.countOfThreads;
@@ -52,8 +56,9 @@ namespace BARS.Internship.Task13.SumKThreads
                 localSum += information.array[i];
             }
 
-            information.partialSums[information.counter] += localSum;
-            // information.counter++; -- перенести в фор где запуск
+            information.partialSums[information.counter] += localSum;               
+            information.counter++;
+
         }
     }
 
